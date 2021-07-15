@@ -1,0 +1,25 @@
+{
+  "users": [
+    {
+      "fullname": "Akshay Hajare",
+      "mobile": 7972336411,
+      "email": "hajareakshay24@gmail.com",
+      "password": "23569",
+      "id": 5
+    },
+    {
+      "fullname": "ashu pote",
+      "email": "ashu@gmail.com",
+      "mobile": 9665693543,
+      "password": "1234",
+      "id": 6
+    },
+    {
+      "fullname": "ashwini pote",
+      "email": "ashu@gmail.com",
+      "mobile": 369852145,
+      "password": "2365",
+      "id": 7
+    }
+  ]
+}
