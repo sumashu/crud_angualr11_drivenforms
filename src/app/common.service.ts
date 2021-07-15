@@ -11,8 +11,8 @@ export class CommonService {
   CreateUser(user) {
      return this._http.post("http://localhost:3000/users",user);  
   }
-  UpdateUser() {
-
+  UpdateUser(user) {
+    return this._http.put("http://localhost:3000/users/" +user.id,user);
   }
   GetAllUser() {
     return this._http.get("http://localhost:3000/users");  

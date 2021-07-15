@@ -54,7 +54,17 @@ export class AppComponent {
     }
     editUser(user)
     {
+      this.isEdit=true;
       this.userObje = user;
     }
+
+    updateuser()
+      {
+        this.isEdit =! this.isEdit;
+        this.commonserv.UpdateUser(this.userObje).subscribe(()=>{
+           this.getLatestUser();
+        })     
+      }
+    
   
 }
